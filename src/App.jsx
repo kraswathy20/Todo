@@ -1,5 +1,6 @@
 
 import './App.css'
+import Navbar from './Navbar'
 import TodoList from './TodoList'
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1>Todo List</h1>
+    <Navbar/>
       <TodoList/>
     </>
   )

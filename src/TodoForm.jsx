@@ -21,7 +21,7 @@ export default function TodoForm({add}){
     return(
         <ListItem>
             <form onSubmit={handleSubmit}>
-            <TextField id="outlined-basic" label="Outlined" variant="outlined" value={text} 
+            <TextField id="outlined-basic" label="Add New Todo" variant="outlined" value={text} 
             onChange={handleText}
             slotProps={{
                 input:{
